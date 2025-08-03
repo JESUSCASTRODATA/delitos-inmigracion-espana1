@@ -1,0 +1,63 @@
+# RStudio project files
+.Rproj.user/
+.Rhistory
+.Rapp.history
+.Ruserdata
+
+# R data and workspace
+*.RData
+*.Rdata
+*.rds
+
+# Session and temp files
+*.csv~
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# packrat (o renv) local libraries
+packrat/lib/
+packrat/bootstrap/
+renv/library/
+
+# Output generated (no versionar)
+output/
+docs/*.html
+docs/*.pdf
+docs/*.tex
+docs/*.log
+
+# R Markdown cache/files
+*_cache/
+*_files/
+
+# CI workflows artifacts (no necesitas versionar esto)
+.github/workflows/
+.github/actions/
+
+# Data bruto (no subir CSV originales)
+data/raw/
+
+# Mantener solo processed en data/
+data/*
+!data/processed/
+!data/processed/**
+
+# Logs
+*.log
+*.out
+
+# Compressed archives grandes (si aplican)
+*.zip
+*.tar.gz
+
+# Lockfiles y metadatos de paquete
+*.lock
